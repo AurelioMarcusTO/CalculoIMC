@@ -27,8 +27,10 @@ function verificar() {
         } else if (imc > 40) {
             resp = "Você esta com obesidade morbida ! Procure um Médico !"
         }
+        
         res.innerHTML = `Com um peso de ${mas} e uma alura de ${alt} seu IMC é ${imc.toFixed(2)} e ${resp}.`
     }
+  
 
     
 }

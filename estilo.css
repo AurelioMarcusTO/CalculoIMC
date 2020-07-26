@@ -1,15 +1,19 @@
 body{
-    background: rgb(99, 135, 236);
+    background-image: url(Fundo\ academia.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     font: normal 15pt Arial;
-}
+    }
 
 header{
-    color: white;
+    color: rgb(2, 1, 8);
     text-align: center;
 }
 
 section{
-    background: white;
+    background: rgba(3, 14, 12, 0.274);
         border-radius: 10px;
         padding: 15px;
         width: 500px;
@@ -18,7 +22,21 @@ section{
 }
 
 footer{
-    color: white;
+    color: rgb(1, 1, 12);
     text-align: center;
     font-style: italic;
+}
+input.botao {
+    display: block;
+    font-weight: bolder;
+    width: 150px;
+    padding: 5px 2px;
+    margin: 0 auto;
+}
+div {
+    text-align: center;
+    color:rgb(3, 2, 10);
+}
+input {
+    text-align: center;
 }
